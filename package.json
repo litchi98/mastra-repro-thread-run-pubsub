@@ -1,0 +1,21 @@
+{
+  "name": "mastra-repro-thread-run-pubsub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro:subscriptions": "tsx subscriptions.ts",
+    "repro:shutdown": "tsx shutdown.ts"
+  },
+  "dependencies": {
+    "@mastra/core": "1.83.0",
+    "@mastra/libsql": "1.30.0",
+    "@mastra/memory": "1.41.1",
+    "ai": "5.0.290",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}
